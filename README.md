@@ -60,7 +60,7 @@ Fuzzywuzzy için benzerlik: %100 <br/>Önerilen Film: Yenilmezler<br/>
 ![Screenshot_6](https://github.com/Xpmian/Dogal-Dil-isleme-Projesi-/assets/115807439/843cbfdb-a992-411c-93c1-c72915db5a5c)
 
 <br/>
-Sonuçlar incelendiğinde Universal Sentence Encoder modelinin projede kullanılan veri setine göre önerdiği filmin çok başarısız olduğu görülmektedir. Diğer modeller için de Fuzzywuzzy modeli sadece kelime benzerliğine baktığı için iyi bir film ama çok yüksek ve güvenilir olmayan bir benzerlik oranı sunmuştur. Bu yüzden TD-IDF modeli kullanmak daha iyi olacaktır.<br>
+Sonuçlar incelendiğinde Universal Sentence Encoder modelinin projede kullanılan veri setine göre önerdiği filmin çok başarısız olduğu görülmektedir. Diğer modeller için de Fuzzywuzzy modeli metinler arasında benzerlik bulma konusunda oldukça hassastır bu yüzden güvenilir olmayan bir benzerlik oranı sunmuştur. Bu yüzden TD-IDF modeli kullanmak daha iyi olacaktır.<br>
 <br>
 <br>
 <br>
@@ -77,8 +77,9 @@ Universal Sentence Encoder Modeli için benzerlik: 0.6353595 <br/> Önerilen Fil
 Fuzzywuzzy için benzerlik: %97 <br/>Önerilen Film: Ölüm Yarışı<br/>
 ![Screenshot_7](https://github.com/Xpmian/Dogal-Dil-isleme-Projesi-/assets/115807439/a6c5727b-8d7c-49ea-a4d3-fd310cb7047c)
 
-Sonuçlar incelendiğinde Universal Sentence Encoder modelinin projede kullanılan veri setine göre önerdiği filmin çok başarısız olduğu görülmektedir. Diğer modeller için de Fuzzywuzzy modeli sadece kelime benzerliğine baktığı için iyi bir film ama çok yüksek ve güvenilir olmayan bir benzerlik oranı sunmuştur. Bu yüzden TD-IDF modeli kullanmak daha iyi olacaktır.<br>
+Sonuçlar incelendiğinde Universal Sentence Encoder modelinin projede kullanılan veri setine göre önerdiği filmin çok başarısız olduğu görülmektedir. Diğer modeller için de Fuzzywuzzy modeli metinler arasında benzerlik bulma konusunda oldukça hassastır bu yüzden güvenilir olmayan bir benzerlik oranı sunmuştur. Bu yüzden TD-IDF modeli kullanmak daha iyi olacaktır.<br>
 <br>
+# Modellerin Başarısına Göre Çıkarımlar<br/>
 <br>
 TD-IDF modeli kelime frekanslarına dayalı bir yaklaşım kullanırken Universal Sentence Encoder modeli daha geniş bir metin anlama yeteneğine sahiptir.
 <br>
