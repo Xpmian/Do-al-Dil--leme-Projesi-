@@ -81,7 +81,16 @@ Sonuçlar incelendiğinde Universal Sentence Encoder modelinin projede kullanıl
 <br>
 <br>
 TD-IDF modeli kelime frekanslarına dayalı bir yaklaşım kullanırken Universal Sentence Encoder modeli daha geniş bir metin anlama yeteneğine sahiptir.
+<br>
+<br>
 Fuzzywuzzy kütüphanesi ise metin benzerliğini değerlendirmek için farklı bir yöntem kullanır. Bu yöntem karakter dizileri arasındaki benzerliği ölçer.
+<br>
+<br>
 TD-IDF kelime frekanslarını temel alan bir vektörleme yöntemidir. Kısa metinlerde veya benzer anlam taşıyan ifadelerde sınırlı bir anlama sahip olabilir.
+<br>
+<br>
 Universal Sentence Encoder geniş bir metin anlama yeteneğine sahiptir ve kısa metinlerle başa çıkabilir.
+<br>
+<br>
 Fuzzywuzzy kütüphanesi, karakter dizileri arasındaki benzerliği değerlendirir ve metinler arasında benzerlik bulma konusunda oldukça hassastır. Ancak, anlamın derinlemesine anlaşılması konusunda sınırlıdır.
+<br>
